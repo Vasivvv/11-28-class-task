@@ -1,0 +1,222 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 347px;
+  height: 48px;
+}
+.header-buttons .btn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 36px;
+  gap: 10px;
+  width: 182px;
+  height: 48px;
+  border: 1px solid;
+  background: #784F33;
+  border-radius: 37px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.header-buttons .btn2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 36px;
+  gap: 10px;
+  width: 155px;
+  height: 48px;
+  border: 1px solid #784F33;
+  border-radius: 37px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #784F33;
+}
+
+.header {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../assets/img/cover.jpg");
+  background-size: cover;
+}
+.header nav {
+  display: flex;
+  width: 1322px;
+  height: 104px;
+  left: calc(50% - 661px);
+  top: 0px;
+}
+.header nav ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  width: 280px;
+  height: 24px;
+  left: calc(50% - 300px);
+  top: 45px;
+}
+.header nav .head-title {
+  position: absolute;
+  width: 134px;
+  height: 32px;
+  left: calc(50% - 93.5px - 431.5px);
+  top: 36px;
+}
+.header nav li {
+  width: 45px;
+  height: 24px;
+  margin-left: 24px;
+}
+.header nav a {
+  display: flex;
+  text-decoration: none;
+}
+.header nav .icon {
+  position: absolute;
+  width: 24px;
+  height: 13.71px;
+  left: calc(50% - 12px + 649px);
+  top: 45px;
+}
+
+.header-legal {
+  margin-left: 20px;
+}
+
+.container {
+  width: 1046px;
+  margin: 0 auto;
+}
+
+.header-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1230px;
+  height: 300px;
+}
+
+.header-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  width: 1046px;
+  height: 210px;
+}
+.header-item .header-item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 40px;
+  gap: 10px;
+  width: 328px;
+  height: 210px;
+  margin-top: 468px;
+  background: #ffffff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.header-item .header-item-box-blue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 40px;
+  gap: 10px;
+  margin-top: 468px;
+  width: 328px;
+  height: 210px;
+  background: #295c7a;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+main {
+  margin-top: 300px;
+}
+main .client-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 100%;
+  height: 100px;
+}
+main .client-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  justify-content: center;
+  height: 202px;
+  width: 100%;
+}
+main .client-item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  gap: 10px;
+  width: 230px;
+  height: 202px;
+  background: #ffffff;
+}
+main .prac-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 100%;
+  height: 100px;
+}
+main .advice-all-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 100%;
+  height: 342px;
+}
+main .advice-all-box .advice-item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  height: 341px;
+  background: #ffffff;
+}
+main .advice-all-box .box-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 15px;
+  width: 232px;
+  height: 203px;
+}/*# sourceMappingURL=main.css.map */
